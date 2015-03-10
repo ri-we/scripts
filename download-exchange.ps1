@@ -1,0 +1,1 @@
+﻿Invoke-Command -Session $VMSession {iex((New-Object Net.WebClient).DownloadFile('http://download.microsoft.com/download/3/0/3/30383778-FB6F-429A-9F65-AF1FE57D7017/Exchange2010-SP3-x64.exe','Z:\Exchange2010-SP3-x64.exe'))}
